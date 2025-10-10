@@ -48,7 +48,7 @@ st.markdown(
         [data-testid="stSidebar"] {background-color: #D3ECF0;}
     </style>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True 
 )
 
 with st.sidebar:
