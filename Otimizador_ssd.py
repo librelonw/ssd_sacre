@@ -31,7 +31,7 @@ def _unit_cost_series(base: float,
       A defasagem de -π/2 faz a série começar no ponto mínimo (valendo 1 - seasonal_amp)
       e atingir o pico por volta de 6 meses depois, repetindo a cada 12 meses.
 
-    Observação:
+    Observação:  
       - Recomenda-se 0 ≤ seasonal_amp < 1 para manter o fator sazonal sempre positivo.
     """
     # converte taxa anual -> taxa mensal composta (sem aproximar por dividir por 12)
